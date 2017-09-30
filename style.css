@@ -28,3 +28,24 @@ ol {
 img {
     width: 400px;
 }
+
+button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #02C4FF;
+    background-color: #0E0779;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #222222;
+  }
+  
+  button:hover {background-color: #0E0779}
+  
+  button:active {
+    background-color: #0E0779;
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+  }
